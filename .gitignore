@@ -3,6 +3,7 @@ dist/
 .sites-runtime/
 inspection/
 artifacts/
+outputs/
 *.log
 .npm-cache/
 .playwright-browsers/

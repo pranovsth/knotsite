@@ -3,3 +3,24 @@
 @media(max-width:900px){.ke-workspace{grid-template-columns:230px minmax(0,1fr)}.ke-preview-workspace{padding-left:20px;padding-right:20px}.ke-preview-hint{display:none}.ke-save-note{display:none}.ke-control-body{padding-left:18px;padding-right:18px}.ke-panel-heading{padding-left:18px;padding-right:18px}.ke-portfolio{padding-left:24px;padding-right:24px}.ke-project-art{height:107px}.ke-project-art--one>span{font-size:26px}.ke-project-art--two>span{font-size:17px}.ke-toolbar{padding:0 18px}.ke-draft-badge{margin-left:7px;padding-left:13px}}
 @media(max-width:650px){.knot-editor{border-radius:10px}.ke-toolbar{height:auto;min-height:60px;flex-wrap:wrap;gap:10px;padding:13px 15px}.ke-brand{font-size:22px}.ke-knot{font-size:26px}.ke-draft-badge{display:none}.ke-toolbar-actions{gap:6px}.ke-save,.ke-export{padding:9px;font-size:9px!important}.ke-export>svg{width:12px}.ke-workspace{display:flex;flex-direction:column;min-height:0!important}.ke-controls{border-right:0;border-bottom:1px solid #e5e7de}.ke-panel-heading{padding:17px 18px 14px}.ke-panel-heading>span{font-size:13px}.ke-panel-heading>p{display:none}.ke-tabs{position:absolute;right:16px;top:79px;width:155px;margin:0}.ke-tabs button{font-size:9px;padding:7px;gap:4px}.ke-tabs svg{width:11px}.ke-control-body{padding:0 18px 15px;display:grid;grid-template-columns:1fr 1fr;gap:0 12px}.ke-field{margin-bottom:12px;gap:5px}.ke-field input,.ke-field textarea{padding:8px;font-size:11px}.ke-field label{font-size:9px}.ke-bio-field{grid-column:1/-1}.ke-field textarea{min-height:64px;height:64px}.ke-section-controls{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:3px 0 0;padding-top:12px}.ke-section-controls h4{display:none}.ke-toggle-row{margin:0;gap:6px;font-size:9px}.ke-toggle{width:24px;height:14px}.ke-toggle::after{width:8px;height:8px}.ke-toggle-row input:checked+.ke-toggle::after{transform:translateX(10px)}.ke-local-note{margin:0 18px 14px;font-size:8px}.ke-field-title{grid-column:1/-1;margin:7px 0 10px}.ke-template-grid{grid-column:1/-1;grid-template-columns:repeat(5,1fr);gap:6px}.ke-template-option{padding:3px}.ke-template-mini{height:53px;padding:7px}.ke-template-mini i{width:10px;height:10px;margin-bottom:4px}.ke-template-option>span:last-child{font-size:7px;padding:5px 1px 2px}.ke-template-option>span:last-child svg{width:8px}.ke-accent-picker{grid-column:1/-1;border:0;padding:0;margin:14px 0 0;display:flex;align-items:center;gap:16px}.ke-accent-picker h4{font-size:9px;margin:0}.ke-swatches{gap:7px}.ke-swatches button{width:21px;height:21px}.ke-style-note{display:none}.ke-preview-workspace{padding:16px 19px 20px}.ke-preview-topline{max-width:570px;margin-bottom:14px}.ke-preview-frame{max-width:100%}.ke-portfolio{padding:22px 24px 15px}.ke-profile-hero{padding-top:26px;padding-bottom:27px}.ke-available{top:45px}.ke-editable-name h2{font-size:29px}.ke-profile-hero>p{font-size:9px}.ke-project-art{height:118px}.ke-project-art--one>span{font-size:28px}.ke-project-art--two>span{font-size:18px}.ke-preview-caption{font-size:8px;margin-top:16px}.ke-status{font-size:10px;white-space:normal;width:max-content;max-width:90%;bottom:12px;line-height:1.5}.ke-status>svg{flex-shrink:0}.knot-editor--inline .ke-preview-workspace{padding-top:15px}.knot-editor--inline .ke-toolbar{height:auto}}
 @media(prefers-reduced-motion:reduce){.knot-editor *,.knot-editor *::before,.knot-editor *::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Keep real editor content usable for long names, zoomed pages and touch input. */
+.ke-browser-bar>span:not(.ke-browser-status){overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.ke-site-nav>span{min-width:0;max-width:55%;overflow-wrap:anywhere}
+.ke-site-nav>div{flex-shrink:0}
+.ke-editable-name,.ke-editable-title,.ke-profile-hero>p,.ke-site-footer>span{max-width:100%;overflow-wrap:anywhere}
+.ke-site-footer>a{display:inline-flex;align-items:center;gap:3px;text-decoration:none}
+.ke-field input[aria-invalid=true]{border-color:#b97059}
+.ke-field label>span,.ke-local-note,.ke-style-note{color:#747a6b}
+.ke-panel-heading>p{color:#73786b}
+.ke-status--error{background:#734b35}
+@media(max-width:650px){
+  .ke-tabs{position:static;width:auto;margin:0 18px 15px}
+  .ke-tabs button,.ke-save,.ke-export,.ke-close,.ke-viewport-toggle button{min-height:44px}
+  .ke-close{min-width:44px}
+  .ke-field input,.ke-field textarea{font-size:16px}
+  .ke-toggle-row{min-height:44px}
+  .ke-accent-picker{flex-wrap:wrap}
+  .ke-swatches button{width:44px;height:44px;border:8px solid #fff}
+  .ke-toolbar-actions{flex-wrap:wrap}
+}

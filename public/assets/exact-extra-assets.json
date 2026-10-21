@@ -1,0 +1,268 @@
+[
+  {
+    "name": "shadow-hero-white",
+    "nodeId": "66:313",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 244.92776489257812,
+    "y": 727.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 244.92776489257812,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 727.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-white.svg",
+    "png2x": "shadow-hero-white@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-hero-pink",
+    "nodeId": "66:319",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 437,
+    "y": 700.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 437,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 700.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-pink.svg",
+    "png2x": "shadow-hero-pink@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-hero-green",
+    "nodeId": "66:320",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 856,
+    "y": 701.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 856,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 701.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-green.svg",
+    "png2x": "shadow-hero-green@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-hero-blue",
+    "nodeId": "66:322",
+    "width": 386.70904541015625,
+    "height": 418.45599365234375,
+    "x": 611.76953125,
+    "y": 719.444580078125,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 611.76953125,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 719.444580078125
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-blue.svg",
+    "png2x": "shadow-hero-blue@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-hero-black",
+    "nodeId": "66:321",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 1047,
+    "y": 729.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 1047,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 729.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-black.svg",
+    "png2x": "shadow-hero-black@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-section-phone",
+    "nodeId": "66:360",
+    "width": 344.6634826660156,
+    "height": 372.95867919921875,
+    "x": 630.71484375,
+    "y": 1489.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 630.71484375,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 1489.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-section-phone.svg",
+    "png2x": "shadow-section-phone@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-cta-pink",
+    "nodeId": "184:365",
+    "width": 344.6634826660156,
+    "height": 372.95867919921875,
+    "x": 906,
+    "y": 4355.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 906,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 4355.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-cta-pink.svg",
+    "png2x": "shadow-cta-pink@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "shadow-cta-white",
+    "nodeId": "184:367",
+    "width": 344.6634826660156,
+    "height": 372.7200927734375,
+    "x": 842,
+    "y": 4328.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 842,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 4328.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-cta-white.svg",
+    "png2x": "shadow-cta-white@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "cta-phone-white",
+    "nodeId": "184:268",
+    "width": 170,
+    "height": 350.3912353515625,
+    "x": 929,
+    "y": 4081,
+    "matrix": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 929,
+      "m10": 0,
+      "m11": 1,
+      "m12": 4081
+    },
+    "rotation": 0,
+    "svg": "cta-phone-white.svg",
+    "png2x": "cta-phone-white@2x.png",
+    "blendMode": "NORMAL",
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  },
+  {
+    "name": "cta-phone-pink",
+    "nodeId": "184:345",
+    "width": 169.814453125,
+    "height": 350.0087890625,
+    "x": 991,
+    "y": 4107,
+    "matrix": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 991,
+      "m10": 0,
+      "m11": 1,
+      "m12": 4107
+    },
+    "rotation": 0,
+    "svg": "cta-phone-pink.svg",
+    "png2x": "cta-phone-pink@2x.png",
+    "blendMode": "NORMAL",
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded."
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "name": "shadow-hero-white",
+    "nodeId": "66:313",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 244.92776489257812,
+    "y": 727.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 244.92776489257812,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 727.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-white.svg",
+    "png2x": "shadow-hero-white@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-hero-white-padded.svg",
+    "paddedPng2x": "shadow-hero-white-padded@2x.png",
+    "imageWidth": 346.5603332519531,
+    "imageHeight": 372.38421630859375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-hero-pink",
+    "nodeId": "66:319",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 437,
+    "y": 700.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 437,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 700.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-pink.svg",
+    "png2x": "shadow-hero-pink@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-hero-pink-padded.svg",
+    "paddedPng2x": "shadow-hero-pink-padded@2x.png",
+    "imageWidth": 346.5603332519531,
+    "imageHeight": 372.38421630859375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-hero-green",
+    "nodeId": "66:320",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 856,
+    "y": 701.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 856,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 701.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-green.svg",
+    "png2x": "shadow-hero-green@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-hero-green-padded.svg",
+    "paddedPng2x": "shadow-hero-green-padded@2x.png",
+    "imageWidth": 346.5603332519531,
+    "imageHeight": 372.38421630859375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-hero-blue",
+    "nodeId": "66:322",
+    "width": 386.70904541015625,
+    "height": 418.45599365234375,
+    "x": 611.76953125,
+    "y": 719.444580078125,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 611.76953125,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 719.444580078125
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-blue.svg",
+    "png2x": "shadow-hero-blue@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-hero-blue-padded.svg",
+    "paddedPng2x": "shadow-hero-blue-padded@2x.png",
+    "imageWidth": 418.70904541015625,
+    "imageHeight": 450.45599365234375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-hero-black",
+    "nodeId": "66:321",
+    "width": 314.5603332519531,
+    "height": 340.38421630859375,
+    "x": 1047,
+    "y": 729.427734375,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 1047,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 729.427734375
+    },
+    "rotation": -45,
+    "svg": "shadow-hero-black.svg",
+    "png2x": "shadow-hero-black@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-hero-black-padded.svg",
+    "paddedPng2x": "shadow-hero-black-padded@2x.png",
+    "imageWidth": 346.5603332519531,
+    "imageHeight": 372.38421630859375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-section-phone",
+    "nodeId": "66:360",
+    "width": 344.6634826660156,
+    "height": 372.95867919921875,
+    "x": 630.71484375,
+    "y": 1489.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 630.71484375,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 1489.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-section-phone.svg",
+    "png2x": "shadow-section-phone@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-section-phone-padded.svg",
+    "paddedPng2x": "shadow-section-phone-padded@2x.png",
+    "imageWidth": 376.6634826660156,
+    "imageHeight": 404.95867919921875,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-cta-pink",
+    "nodeId": "184:365",
+    "width": 344.6634826660156,
+    "height": 372.95867919921875,
+    "x": 906,
+    "y": 4355.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 906,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 4355.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-cta-pink.svg",
+    "png2x": "shadow-cta-pink@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-cta-pink-padded.svg",
+    "paddedPng2x": "shadow-cta-pink-padded@2x.png",
+    "imageWidth": 376.6634826660156,
+    "imageHeight": 404.95867919921875,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  },
+  {
+    "name": "shadow-cta-white",
+    "nodeId": "184:367",
+    "width": 344.6634826660156,
+    "height": 372.7200927734375,
+    "x": 842,
+    "y": 4328.7138671875,
+    "matrix": {
+      "m00": 0.7071067690849304,
+      "m01": 0.7071067690849304,
+      "m02": 842,
+      "m10": -0.7071067690849304,
+      "m11": 0.7071067690849304,
+      "m12": 4328.7138671875
+    },
+    "rotation": -45,
+    "svg": "shadow-cta-white.svg",
+    "png2x": "shadow-cta-white@2x.png",
+    "blendMode": "NORMAL",
+    "effects": [
+      {
+        "type": "FOREGROUND_BLUR",
+        "radius": 5,
+        "renderedBlur": 2.5
+      }
+    ],
+    "note": "Use top-left transform-origin and original affine matrix; source paint opacity and blur are embedded.",
+    "padding": 16,
+    "paddedSvg": "shadow-cta-white-padded.svg",
+    "paddedPng2x": "shadow-cta-white-padded@2x.png",
+    "imageWidth": 376.6634826660156,
+    "imageHeight": 404.7200927734375,
+    "usage": "Inside original-width/height wrapper transformed by matrix, place padded image at left:-16,top:-16,width:imageWidth,height:imageHeight; original geometry aligns exactly and blur remains unclipped."
+  }
+]
