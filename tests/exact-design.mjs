@@ -130,6 +130,22 @@ try {
     expect(broken).toEqual([]);
     return { count: await sourcePage.locator('img').count() };
   });
+  await check('Editor reorder controls render all arrow icons', async () => {
+    const iconPixels = await sourcePage.locator('[data-design-asset="editor-reference"] img').evaluate((image) => {
+      const canvas = document.createElement('canvas');
+      canvas.width = image.naturalWidth; canvas.height = image.naturalHeight;
+      const context = canvas.getContext('2d', { willReadFrequently: true });
+      context.drawImage(image, 0, 0);
+      return [[509, 118], [509, 365], [509, 557]].map(([x, y]) => {
+        const pixels = context.getImageData(x * 2 - 12, y * 2 - 12, 24, 24).data;
+        let dark = 0;
+        for (let offset = 0; offset < pixels.length; offset += 4) if (pixels[offset] < 90 && pixels[offset + 1] < 90 && pixels[offset + 2] < 90 && pixels[offset + 3] > 200) dark++;
+        return dark;
+      });
+    });
+    expect(iconPixels.every((count) => count >= 8), `Missing editor arrow artwork: ${iconPixels.join(', ')}`).toBeTruthy();
+    return { renderedArrowPixels: iconPixels };
+  });
 
   let reference;
   for (const candidate of [process.env.REFERENCE_IMAGE, 'inspection/exact-reference.png', 'inspection/qa-reference-local-1600.png'].filter(Boolean)) {
